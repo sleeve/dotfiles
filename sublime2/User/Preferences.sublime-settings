@@ -1,0 +1,51 @@
+// Settings in here override those in "Default/Preferences.sublime-settings", and
+// are overridden in turn by file type specific settings.
+{
+    // Files containing null bytes are opened as hexadecimal by default
+    // *** This should allow iOS 6 console logs to be displayed ***
+    "enable_hexadecimal_encoding": false,
+
+    // Set to true to ensure the last line of the file ends in a newline
+    // character when saving
+    "ensure_newline_at_eof_on_save": true,
+
+    // Show folders in the side bar in bold
+    "bold_folder_labels": true,
+
+    // Set to true to removing trailing white space on save
+    "trim_trailing_white_space_on_save": true,
+
+    // OS X only: When files are opened from finder, or by dragging onto the
+    // dock icon, this controls if a new window is created or not.
+    "open_files_in_new_window": false,
+
+    // Makes tabs with modified files more visible
+    "highlight_modified_tabs": true,
+
+    // Set to true to automatically save files when switching to a different file
+    // or application
+    "save_on_focus_lost": true,
+
+    // Spacing between the gutter and the text
+    "margin": 2,
+
+    // Set to 0 to disable smooth scrolling. Set to a value between 0 and 1 to
+    // scroll slower, or set to larger than 1 to scroll faster
+    "scroll_speed": 3,
+
+    // OS X 10.7 only: Set to true to disable Lion style full screen support.
+    // Sublime Text must be restarted for this to take effect.
+    "use_simple_full_screen": true,
+
+    // OS X only. Valid values are true, false, and "auto". Auto will enable
+    // the setting when running on a screen 2880 pixels or wider (i.e., a
+    // Retina display). When this setting is enabled, OpenGL is used to
+    // accelerate drawing. Sublime Text must be restarted for changes to take
+    // effect.
+    "gpu_window_buffer": true,
+
+    // Set to false to disable scrolling past the end of the buffer.
+    // On OS X, this value is overridden in the platform specific settings, so
+    // you'll need to place this line in your user settings to override it.
+    "scroll_past_end": false
+}

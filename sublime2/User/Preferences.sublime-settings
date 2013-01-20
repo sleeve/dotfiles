@@ -1,5 +1,6 @@
 // Settings in here override those in "Default/Preferences.sublime-settings", and
 // are overridden in turn by file type specific settings.
+
 {
     // Files containing null bytes are opened as hexadecimal by default
     // *** This should allow iOS 6 console logs to be displayed ***
@@ -47,5 +48,36 @@
     // Set to false to disable scrolling past the end of the buffer.
     // On OS X, this value is overridden in the platform specific settings, so
     // you'll need to place this line in your user settings to override it.
-    "scroll_past_end": false
+    "scroll_past_end": false,
+
+    // Show the full path to files in the title bar.
+    // On OS X, this value is overridden in the platform specific settings, so
+    // you'll need to place this line in your user settings to override it.
+    "show_full_path": false,
+
+    // Hides the fold buttons unless the mouse is over the gutter
+    "fade_fold_buttons": false,
+
+    // If enabled, will highlight any line with a caret
+    "highlight_line": true,
+
+    // Valid values are "smooth", "phase", "blink", "wide" and "solid".
+    "caret_style": "phase",
+
+    // The number of spaces a tab is considered equal to
+    "tab_size": 4,
+
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+
+    // Trims white space added by auto_indent when moving the caret off the
+    // line.
+    "trim_automatic_white_space": true,
+
+    // Set to false to disable detection of tabs vs. spaces on load
+    "detect_indentation": false,
+
+    // List any packages to ignore here. When removing entries from this list,
+    // a restart may be required if the package contains plugins.
+    "ignored_packages": ["Vintage"]
 }

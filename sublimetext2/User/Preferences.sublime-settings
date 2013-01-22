@@ -1,9 +1,11 @@
-// Settings in here override those in "Default/Preferences.sublime-settings", and
-// are overridden in turn by file type specific settings.
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by file type specific settings.
 
 {
     // Files containing null bytes are opened as hexadecimal by default
-    // *** This should allow iOS 6 console logs to be displayed ***
+    // *** This should allow iOS 6 console logs to be displayed correctly when
+    // opening them from a file. Pasting console log data into Sublime Text
+    // still seems to be broken...? ***
     "enable_hexadecimal_encoding": false,
 
     // Set to true to ensure the last line of the file ends in a newline
@@ -23,8 +25,8 @@
     // Makes tabs with modified files more visible
     "highlight_modified_tabs": true,
 
-    // Set to true to automatically save files when switching to a different file
-    // or application
+    // Set to true to automatically save files when switching to a different
+    // file or application
     "save_on_focus_lost": true,
 
     // Spacing between the gutter and the text
@@ -79,5 +81,18 @@
 
     // List any packages to ignore here. When removing entries from this list,
     // a restart may be required if the package contains plugins.
-    "ignored_packages": ["Vintage"]
+    "ignored_packages": ["Vintage"],
+
+    // folder_exclude_patterns and file_exclude_patterns control which files
+    // are listed in folders on the side bar. These can also be set on a per-
+    // project basis.
+    "file_exclude_patterns": ["*.jpg", "*.png", "*.mp3", "*.ogg", "*.ico",
+        "*.cache", "*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a",
+        "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb",
+        "*.idb", ".DS_Store", "*.class", "*.psd", "*.db"],
+
+    // Disables horizontal scrolling if enabled.
+    // May be set to true, false, or "auto", where it will be disabled for
+    // source code, and otherwise enabled.
+    "word_wrap": true
 }

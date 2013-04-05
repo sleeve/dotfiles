@@ -6,9 +6,9 @@
   * OS X: ~/Library/Application Support/Sublime Text 3
   * Windows: %APPDATA%\Sublime Text 3
   * Linux: ~/.config/sublime-text-3
-  
+
     To revert to a freshly installed state, you can:
 
-  1. Exit Sublime Text 3
-  2. Delete (or move) the data folder, as listed above
-  3. Start Sublime Text 3
+    1. Exit Sublime Text 3
+    2. Delete (or move) the data folder, as listed above
+    3. Start Sublime Text 3

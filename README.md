@@ -9,6 +9,18 @@ Along with just having the actual config files in here I'm also trying to keep a
 1. Download the latest version: http://www.sublimetext.com/3 or http://www.sublimetext.com/3dev
 
 2. To revert to a freshly installed state from a previous install you will need to delete the data folder. Depending on your operating system, this folder is located:
-  * OS X: ~/Library/Application Support/Sublime Text 3
-  * Windows: %APPDATA%\Sublime Text 3
-  * Linux: ~/.config/sublime-text-3
+
+        OS X: ~/Library/Application Support/Sublime Text 3
+        Windows: %APPDATA%\Sublime Text 3
+        Linux: ~/.config/sublime-text-3
+
+3. Git needs to be installed on the system to be able to install Sublime Package Control in ST3: http://git-scm.com/downloads
+
+4. Follow the Sublime Package Control install steps for ST3: http://wbond.net/sublime_packages/package_control/installation#ST3
+
+**Packages**  
+[Base16 Color Schemes](https://github.com/chriskempson/base16)  
+[Dayle Rees Color Schemes](https://github.com/daylerees/colour-schemes)  
+[Solarized Color Scheme](https://github.com/SublimeColors/Solarized)  
+Hasher  
+[URLEncode](https://github.com/mastahyeti/URLEncode)  

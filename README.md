@@ -1,4 +1,8 @@
-Just a place to keep my various settings and configuration files for everything.
+# dotfiles
+
+This is just a place to keep all of my settings and config files for various apps. Its a pain having to manually configure all of my apps after every fresh install or upgrade. This will hopefully speed things up a bit.
+
+Along with just having the actual config files in here I'm also trying to keep a list of setup steps for each app.
 
 ## Sublime Text 3
 

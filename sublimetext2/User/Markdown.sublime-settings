@@ -1,0 +1,20 @@
+{
+    // Which file extensions go with this file type?
+    "extensions":
+    [
+        "md",
+        "mdown",
+        "mdwn",
+        "mkd",
+        "markdown"
+    ],
+
+    // Sets the colors used within the text area
+    "color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
+
+    // Trims white space added by auto_indent when moving the caret off the line.
+    "trim_automatic_white_space": false,
+
+    // Set to true to removing trailing white space on save
+    "trim_trailing_white_space_on_save": false
+}

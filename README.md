@@ -21,6 +21,8 @@ Along with just having the actual config files in here I'm also trying to keep a
 **Packages**  
 [Indent XML](https://github.com/alek-sys/sublimetext_indentxml)  
 [URLEncode](https://github.com/mastahyeti/URLEncode)  
+[Pretty JSON](https://github.com/dzhibas/SublimePrettyJson)  
+[HtmlTidy](https://github.com/welovewordpress/SublimeHtmlTidy)  
 [Highlight](https://github.com/n1k0/SublimeHighlight)  
 [StringEncode](https://github.com/colinta/SublimeStringEncode)  
 Hasher  

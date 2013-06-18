@@ -9,9 +9,6 @@
         "markdown"
     ],
 
-    // Sets the colors used within the text area
-    "color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
-
     // Trims white space added by auto_indent when moving the caret off the line.
     "trim_automatic_white_space": false,
 

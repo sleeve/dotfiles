@@ -44,13 +44,6 @@
     // Sublime Text must be restarted for this to take effect.
     "use_simple_full_screen": true,
 
-    // OS X only. Valid values are true, false, and "auto". Auto will enable
-    // the setting when running on a screen 2880 pixels or wider (i.e., a
-    // Retina display). When this setting is enabled, OpenGL is used to
-    // accelerate drawing. Sublime Text must be restarted for changes to take
-    // effect.
-    "gpu_window_buffer": true,
-
     // Set to false to disable scrolling past the end of the buffer.
     // On OS X, this value is overridden in the platform specific settings, so
     // you'll need to place this line in your user settings to override it.

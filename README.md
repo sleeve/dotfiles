@@ -14,7 +14,7 @@ Along with just having the actual config files in here I'm also trying to keep a
         Windows: %APPDATA%\Sublime Text 3
         Linux: ~/.config/sublime-text-3
 
-3. Git needs to be installed on the system to be able to install Sublime Package Control in ST3: http://git-scm.com/downloads
+3. Git needs to be installed to allow Sublime Package Control to install in ST3. Should probably just do this through 'homebrew', or manually install it from http://git-scm.com/downloads
 
 4. Follow the Sublime Package Control install steps for ST3: http://wbond.net/sublime_packages/package_control/installation#ST3
 

@@ -221,11 +221,11 @@
 	<key>UseBrightBold</key>
 	<false/>
 	<key>columnCount</key>
-	<integer>100</integer>
+	<integer>130</integer>
 	<key>name</key>
 	<string>base16-monokai.dark.256</string>
 	<key>rowCount</key>
-	<integer>25</integer>
+	<integer>30</integer>
 	<key>shellExitAction</key>
 	<integer>1</integer>
 	<key>type</key>

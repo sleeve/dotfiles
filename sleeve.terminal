@@ -197,6 +197,8 @@
 	<real>2.04</real>
 	<key>RunCommandAsShell</key>
 	<true/>
+	<key>ScrollAlternateScreen</key>
+	<true/>
 	<key>SelectionColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGFRZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
@@ -273,5 +275,7 @@
 	<integer>1</integer>
 	<key>type</key>
 	<string>Window Settings</string>
+	<key>useOptionAsMetaKey</key>
+	<true/>
 </dict>
 </plist>

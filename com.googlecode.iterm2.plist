@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AdjustWindowForFontSizeChange</key>
-	<true/>
+	<false/>
 	<key>AllowClipboardAccess</key>
 	<false/>
 	<key>AnimateDimming</key>
@@ -696,15 +696,23 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>2953 162 561 278 1680 -150 1920 1177 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>200 361 796 475 0 0 1680 1027 </string>
+	<string>1871 521 796 475 1680 -150 1920 1177 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>553 476 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1769 542 780 447 1680 -150 1920 1177 </string>
+	<string>2518 540 780 447 1680 -150 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>2734 548 780 447 1680 -150 1920 1177 </string>
+	<string>2707 267 780 447 1680 -150 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>186 499 780 447 0 0 1680 1027 </string>
+	<string>2297 107 780 447 1680 -150 1920 1177 </string>
+	<key>NSWindow Frame iTerm Window 3</key>
+	<string>2484 10 780 447 1680 -150 1920 1177 </string>
+	<key>NSWindow Frame iTerm Window 4</key>
+	<string>1990 -87 780 447 1680 -150 1920 1177 </string>
+	<key>NSWindow Frame iTerm Window 5</key>
+	<string>2360 -59 780 447 1680 -150 1920 1177 </string>
+	<key>NSWindow Frame iTerm Window 6</key>
+	<string>2486 23 780 447 1680 -150 1920 1177 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2959,7 +2967,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-04-09T21:34:48Z</date>
+	<date>2015-04-10T21:34:48Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Secure Input</key>

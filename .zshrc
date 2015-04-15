@@ -82,4 +82,5 @@ alias bbb="brew update && brew outdated && brew upgrade"
 alias udid="bash ~/scripts/getudid.sh" #
 alias openssl="/usr/local/Cellar/openssl/1.0.2a-1/bin/openssl"
 alias cd.="cd .."
+alias cd..="cd .."
 alias cd~="cd ~"
